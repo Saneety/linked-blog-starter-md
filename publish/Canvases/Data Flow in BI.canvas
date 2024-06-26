@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"1fabb9ed30048471","type":"group","x":-100,"y":-120,"width":240,"height":360,"label":"Data Warehouse"},
+		{"id":"d52d2dd7001ecc31","x":-420,"y":-50,"width":220,"height":160,"type":"group","label":"Источники данных"},
+		{"id":"0fd108302f3cc27b","type":"group","x":240,"y":-50,"width":220,"height":160,"label":"Визуализация"},
+		{"id":"44f25b8422578dd9","type":"text","text":"Витрина данных","x":-80,"y":-100,"width":200,"height":60},
+		{"id":"0beaafdf565a86ce","type":"text","text":"DB Core","x":-80,"y":-10,"width":200,"height":60},
+		{"id":"a9e7d6e817bdcb22","type":"text","text":"Temporary tables","x":-80,"y":80,"width":200,"height":60},
+		{"id":"4a3ba2d97f1993d5","type":"text","text":"Power BI","x":260,"y":-30,"width":180,"height":60},
+		{"id":"f0a9760ca8a09ba5","type":"text","text":"Excel","x":260,"y":30,"width":180,"height":60},
+		{"id":"d11381bbafc8af03","type":"text","text":"CRM","x":-400,"y":-30,"width":180,"height":60},
+		{"id":"0660ab7bc075a63a","type":"text","text":"1С","x":-400,"y":30,"width":180,"height":60}
+	],
+	"edges":[
+		{"id":"eee8aab5aef04c51","fromNode":"a9e7d6e817bdcb22","fromSide":"top","toNode":"0beaafdf565a86ce","toSide":"bottom"},
+		{"id":"af89df47245d04df","fromNode":"0beaafdf565a86ce","fromSide":"top","toNode":"44f25b8422578dd9","toSide":"bottom"},
+		{"id":"89f2b5a311695ab9","fromNode":"d52d2dd7001ecc31","fromSide":"right","toNode":"a9e7d6e817bdcb22","toSide":"left"},
+		{"id":"06e1818c402141a9","fromNode":"44f25b8422578dd9","fromSide":"right","toNode":"0fd108302f3cc27b","toSide":"left"}
+	]
+}
